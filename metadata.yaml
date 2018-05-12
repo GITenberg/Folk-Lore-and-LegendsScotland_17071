@@ -1,0 +1,43 @@
+_repo: Folk-Lore-and-LegendsScotland_17071
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Anonymous
+    alias: Anonyme
+    gutenberg_agent_id: '216'
+    url: http://www.gutenberg.org/2009/agents/216
+    wikipedia:
+    - http://www.gutenberg.org/browse/authors/u#a49
+    - http://en.wikipedia.org/wiki/Anonymity
+description: ''
+gutenberg_bookshelf: Folklore
+gutenberg_issued: '2005-11-15'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '17071'
+language: en
+publication_note: 'London :  W. W. Gibbings,  1889'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Folklore -- Scotland'
+- !lcsh 'Legends -- Scotland'
+- !lcc 'GR'
+tableOfContents: Canobie Dick and Thomas of Ercildoun -- Coinnach Oer -- Elphin Irving
+  -- The Ghosts of Craig-Aulnaic -- The Doomed Rider -- Whippety Stourie -- The Weird
+  of the Three Arrows -- The Laird of Balmachie's Wife -- Michael Scott -- The Minister
+  and the Fairy -- The Fisherman and the Merman -- The Laird O' Co' -- Ewen of the
+  Little Head -- Jock and his Mother -- Saint Columba -- The Mermaid Wife -- The Fiddler
+  and the Bogle of Bogandoran -- Thomas the Rhymer -- Fairy Friends -- The Seal-Catcher's
+  Adventure -- The Fairies of Merlin's Craig -- Rory Macgillivray -- The Haunted Ships
+  -- The Brownie -- Mauns' Stane -- "Horse and Hattock" -- Secret Commonwealth --
+  The Fairy Boy of Leith -- The Dracæ -- Lord Tarbat's Relations -- The Bogle -- Daoine
+  Shie, or the Men of Peace -- The Death "Bree."
+title: 'Folk-Lore and Legends
+
+  Scotland'
+url: http://www.gutenberg.org/ebooks/17071
