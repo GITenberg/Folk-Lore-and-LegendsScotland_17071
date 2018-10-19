@@ -1,77 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/17071">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8bfdc304056a4e8a98a485557fff66e8">
+        <rdf:value>Folklore -- Scotland</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071-h/17071-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293715</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106976</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:39:12</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N37941a71f65c4f3881f4c17a9ad70453">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="Nfaf37ca47e5d4ed9a006a333c949c506">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:36:47</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:34:36.848644</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N838a4c5ce91f4d1eb830d27dbe579c87">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N566271fd963a4e0cb12828ee64422460">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269740</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:34:37.728759</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132272</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071.txt">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2c4a728e8dfe4d9f9f0339dd4ee1f95d">
+          <rdf:Description rdf:nodeID="N81321bbf3c8443809d59ce1f2f1ed41a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:39:12</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269740</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:21:38.001686</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121815</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9846e170175f4753ac45cf47898f59ae">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0d5f8fdea82c4d128374348389575173">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Legends -- Scotland</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-15</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111300</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N40a5005fe7a54c61a06305b545b6ca16">
+          <rdf:Description rdf:nodeID="Ne6288039c61d49418c49272ac378ee38">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N13eaa268de194aa5943266559cb6d71c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106976</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:39:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne636a56b14604ecf9b737c43de65b5a2">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3cc33642694447c2a8946399696499d7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">496997</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:21:39.149667</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071-h/17071-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293715</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf69b02efcc6d4711ba4e6ae8e397b91c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:36:47</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf53e0981dc2e4f2ab5584ce0471f600c">
+        <rdf:value>GR</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nbe29832c98c04bb7947e7cbe7c11540f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:21:38.140672</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121815</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N25e5987d6c3348f5ad813b16b02947bb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N3f7d9c94bfe1420ab7d38894fa09fca6">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf2f95ec7428f454989e595ed746d109d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">496989</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:21:40.169651</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>Canobie Dick and Thomas of Ercildoun -- Coinnach Oer -- Elphin Irving -- The Ghosts of Craig-Aulnaic -- The Doomed Rider -- Whippety Stourie -- The Weird of the Three Arrows -- The Laird of Balmachie's Wife -- Michael Scott -- The Minister and the Fairy -- The Fisherman and the Merman -- The Laird O' Co' -- Ewen of the Little Head -- Jock and his Mother -- Saint Columba -- The Mermaid Wife -- The Fiddler and the Bogle of Bogandoran -- Thomas the Rhymer -- Fairy Friends -- The Seal-Catcher's Adventure -- The Fairies of Merlin's Craig -- Rory Macgillivray -- The Haunted Ships -- The Brownie -- Mauns' Stane -- "Horse and Hattock" -- Secret Commonwealth -- The Fairy Boy of Leith -- The Dracæ -- Lord Tarbat's Relations -- The Bogle -- Daoine Shie, or the Men of Peace -- The Death "Bree."</dcterms:tableOfContents>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9f381b46a6964daaa7f102b83395024a">
+        <rdf:value>Legends -- Scotland</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:marc260>London :  W. W. Gibbings,  1889</pgterms:marc260>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N601ebc7e324741c08b40fb6d0e4b43b7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12634</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:12:51.964483</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:21:37.721689</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd140bfd2175a40239eb837a3c5428c6a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269741</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ndb3bfa760b944172aca8b59cf5d9ad9c">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Folklore</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/216">
         <pgterms:name>Anonymous</pgterms:name>
@@ -80,111 +200,13 @@
         <pgterms:alias>Anonyme</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111300</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N42932105b0d34dcc99639bc654575ddd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:39:12</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd3b6a734e280484a8e8db7604679bc2d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf64dae33c7794ed781cfe3d8811e2960">
-        <rdf:value>GR</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T19:25:11.561860</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne0ac87ceb424498ebe5e2ef66e993ed7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157786</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc260>London :  W. W. Gibbings,  1889</pgterms:marc260>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N1ff3fd89b533409886b13551b96b002c">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168824</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1a4d57316aa0416b9c2d732cf4d42c68">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T19:25:09.162253</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:title>Folk-Lore and Legends
 Scotland</dcterms:title>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N979d622c636c4896aa56f371c0a06539">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Folklore -- Scotland</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-15</dcterms:issued>
-    <dcterms:tableOfContents>Canobie Dick and Thomas of Ercildoun -- Coinnach Oer -- Elphin Irving -- The Ghosts of Craig-Aulnaic -- The Doomed Rider -- Whippety Stourie -- The Weird of the Three Arrows -- The Laird of Balmachie's Wife -- Michael Scott -- The Minister and the Fairy -- The Fisherman and the Merman -- The Laird O' Co' -- Ewen of the Little Head -- Jock and his Mother -- Saint Columba -- The Mermaid Wife -- The Fiddler and the Bogle of Bogandoran -- Thomas the Rhymer -- Fairy Friends -- The Seal-Catcher's Adventure -- The Fairies of Merlin's Craig -- Rory Macgillivray -- The Haunted Ships -- The Brownie -- Mauns' Stane -- "Horse and Hattock" -- Secret Commonwealth -- The Fairy Boy of Leith -- The Dracæ -- Lord Tarbat's Relations -- The Bogle -- Daoine Shie, or the Men of Peace -- The Death "Bree."</dcterms:tableOfContents>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nc287e8062ecd4a8da27cc8ce21bf00cd">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/17071/17071.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-15T18:39:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269740</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf2ce6c2b58994bf2ae930872ff5267ee">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/17071.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195812</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:34:39.269215</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/17071"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N31e2c432a7714d34baebcee2ad697182">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Anonymity">
     <dcterms:description>Wikipedia on "Anonymity"</dcterms:description>
